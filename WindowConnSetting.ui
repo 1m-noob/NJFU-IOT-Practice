@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowConnSetting</class>
+ <widget class="QMainWindow" name="WindowConnSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>网络通讯参数设置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>res/btn_setting.png</normaloff>res/btn_setting.png</iconset>
+  </property>
+  <widget class="QWidget" name="WidgetConnSetting">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>102</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="LayoutConnLabel">
+     <item>
+      <widget class="QLabel" name="LabelConnIpAddress">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>IP地址：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="LabelConnPort">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>端   口：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>221</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="LayoutConnEdit">
+     <item>
+      <widget class="QLineEdit" name="EditConnIpAddress">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="EditConnPort">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>331</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="LayoutConnBtn">
+     <item>
+      <widget class="QPushButton" name="BtnConnSave">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BtnConnCancel">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
